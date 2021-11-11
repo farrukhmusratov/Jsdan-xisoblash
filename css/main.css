@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+.contianer{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+}
+
+#input{
+    padding: 9px;
+    width: 20%;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    color: #585757;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#btn{
+    padding: 10px;
+    border: none;
+    border: 1px solid #222222;
+    font-size: 16px;
+    font-weight: bold;
+    color: #303031;
+    transition: .5s;
+    border-radius: 5px;
+}
+#btn:hover{ 
+    background-color: #7c7c7c;
+    color: #222222;
+}
+#btn:active {
+    background-color: #363636;
+    color: #d4d4d4;
+}
+.mashina {
+    margin: 0;
+}
+.piyoda {
+    margin: 0;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #222222;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.piyoda {
+    color: #222222;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #222222;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+}
+
+#foot, #bicycle, #car, #plane, p{
+    color: #222222;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text{
+    display: none;
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
